@@ -1,0 +1,116 @@
+{
+  "data": {
+    "messages": 5171,
+    "spam": 653,
+    "duplicates_removed": 403,
+    "train": 4136,
+    "test": 1035
+  },
+  "chosen_model": "Linear SVM",
+  "results": {
+    "Naive Bayes": {
+      "cv": {
+        "precision": 0.9817444219066938,
+        "recall": 0.9272030651340997,
+        "f1": 0.9536945812807882,
+        "roc_auc": 0.9901548257415288,
+        "pr_auc": 0.9773154234426471,
+        "false_alarms": 9,
+        "missed_spam": 38
+      },
+      "test": {
+        "precision": 0.9761904761904762,
+        "recall": 0.9389312977099237,
+        "f1": 0.9571984435797666,
+        "roc_auc": 0.993523272309667,
+        "pr_auc": 0.9821351371744579,
+        "false_alarms": 3,
+        "missed_spam": 8
+      }
+    },
+    "Logistic Regression": {
+      "cv": {
+        "precision": 0.9762376237623762,
+        "recall": 0.9444444444444444,
+        "f1": 0.9600778967867576,
+        "roc_auc": 0.9945979555877844,
+        "pr_auc": 0.9858990329492464,
+        "false_alarms": 12,
+        "missed_spam": 29
+      },
+      "test": {
+        "precision": 0.992,
+        "recall": 0.9465648854961832,
+        "f1": 0.96875,
+        "roc_auc": 0.9961747618725935,
+        "pr_auc": 0.9866489420871233,
+        "false_alarms": 1,
+        "missed_spam": 7
+      }
+    },
+    "Linear SVM": {
+      "cv": {
+        "precision": 0.9800796812749004,
+        "recall": 0.9425287356321839,
+        "f1": 0.9609375,
+        "roc_auc": 0.9945539589548521,
+        "pr_auc": 0.9854951647013975,
+        "false_alarms": 10,
+        "missed_spam": 30
+      },
+      "test": {
+        "precision": 0.992,
+        "recall": 0.9465648854961832,
+        "f1": 0.96875,
+        "roc_auc": 0.9967320813348646,
+        "pr_auc": 0.9878246093951412,
+        "false_alarms": 1,
+        "missed_spam": 7
+      }
+    }
+  },
+  "top_spam_words": [
+    "[phone/short code]",
+    "[link]",
+    "text",
+    "free",
+    "your",
+    "txt",
+    "reply",
+    "uk",
+    "to",
+    "[\u00a3 amount]",
+    "sms",
+    "to [phone/short code]",
+    "for",
+    "rgds",
+    "[number] [number]"
+  ],
+  "top_ham_words": [
+    "my",
+    "me",
+    "at",
+    "at [number]",
+    "lt",
+    "gt",
+    "then",
+    "[number]",
+    "lt gt",
+    "ok",
+    "got",
+    "hey",
+    "if",
+    "up",
+    "he"
+  ],
+  "examples": {
+    "false_alarms": [
+      "Your bill at 3 is \u00a333.65 so thats not bad!"
+    ],
+    "missed_spam": [
+      "Check Out Choose Your Babe Videos @ sms.shsex.netUN fgkslpoPW fgkslpo",
+      "Burger King - Wanna play footy at a top stadium? Get 2 Burger King before 1st Sept and go Large or Super with Coca-Cola and walk out a winner",
+      "Xmas & New Years Eve tickets are now on sale from the club, during the day from 10am till 8pm, and on Thurs, Fri & Sat night this week. They're selling fast!"
+    ]
+  }
+}
