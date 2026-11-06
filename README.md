@@ -1,6 +1,6 @@
 # SMS Spam Classifier
 
-<p align="center"><a href="https://abbasisarah.github.io/assets/videos/demo-sms-spam-classifier.mp4"><img src="assets/demo.gif" width="300" alt="17-second project demo"></a><br><sub>17-second demo. Click for the video with sound.</sub></p>
+<p align="center"><a href="https://github.com/AbbasiSarah/sms-spam-classifier/blob/main/assets/demo.mp4"><img src="assets/demo.gif" width="300" alt="17-second project demo"></a><br><sub>17-second demo. Click for the video with sound.</sub></p>
 
 A text classifier that flags spam SMS messages. On held-out test messages it catches **94.7% of spam** and wrongly flags **1 genuine message in 868** (precision 99.2%, F1 0.969).
 
