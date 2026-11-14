@@ -60,4 +60,4 @@ ham     0.3%  Hey, are we still meeting at 6 for dinner?
 
 ## Data and licence
 
-The SMS Spam Collection is by T. A. Almeida and J. M. Gómez Hidalgo (UCI Machine Learning Repository, CC BY 4.0). If you use it, cite: T. A. Almeida, J. M. G. Hidalgo, A. Yamakami, *Contributions to the Study of SMS Spam Filtering: New Collection and Results*, ACM DocEng 2011. The code is released under the MIT licence.
+The SMS Spam Collection is by T. A. Almeida and J. M. Gómez Hidalgo (UCI Machine Learning Repository, CC BY 4.0). If you use it, cite: T. A. Almeida, J. M. G. Hidalgo, A. Yamakami, *Contributions to the Study of SMS Spam Filtering: New Collection and Results*, ACM DocEng 2011. The code is (c) 2026 Sara Abbasi, all rights reserved: please ask before reusing it (see LICENSE).
